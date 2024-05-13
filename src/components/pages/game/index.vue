@@ -35,13 +35,13 @@ const props = defineProps({
 .grid-container {
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 .grid-row {
   display: flex;
   width: fit-content;
   height: 100%;
-  overflow: scroll;
   color: aliceblue;
 }
 
